@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Krishna Murthi - Professional Web Developer & Designer with 3 years of experience">
+    <title>Krishna Murthi | Web Developer & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Krishna<span>.</span></a>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <!--<li><a href="#Certifications">Certification</a></li>--> 
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Hi, I'm <span>Krishna Murthi</span></h1>
+                <p class="hero-subtitle fade-in" data-delay="0.2s">A passionate Web Developer with 3 years of experience creating beautiful, functional digital experiences.</p>
+                <div class="hero-btns fade-in" data-delay="0.4s">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="hero-scroll fade-in" data-delay="0.6s">
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="hero-image parallax-element">
+                <img src="images/hero-image.png" alt="Web Developer Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-content">
+                <h2 class="section-title fade-in">About Me</h2>
+                <p class="fade-in" data-delay="0.2s">I'm Krishna Murthi, a professional web developer specializing in frontend development, UI design, and graphic design. With 3 years of hands-on experience, I've helped numerous clients bring their digital visions to life.</p>
+                <p class="fade-in" data-delay="0.3s">My approach combines technical expertise with creative problem-solving to deliver solutions that are not only functional but also visually stunning and user-friendly.</p>
+                <div class="skills fade-in" data-delay="0.4s">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Graphic Designing</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in" data-delay="0.1s">
+                <img src="images/profile.jpg" alt="Krishna Murthi">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title fade-in">My Portfolio</h2>
+            <div class="portfolio-filter fade-in" data-delay="0.2s">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ui">UI Design</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                <button class="filter-btn" data-filter="3D Blender">3D Blender</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in" data-delay="0.3s" data-category="web">
+                    <img src="images/project1.jpg" alt="Project 1" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>GITAM NSS Community</h3>
+                        <p>A responsive and modern website built for GITAM NSS to showcase events, initiatives, and volunteer programs—designed using HTML, CSS, and JavaScript, with a focus on clean UI and accessibility.</p>
+                        <a href="https://github.com/krishnamurthi769/kmc-website" class="btn btn-outline">View Project</a>
+                    </div>
+                    <span class="portfolio-category">Web</span>
+                </div>
+                <div class="portfolio-item fade-in" data-delay="0.4s" data-category="ui">
+                    <img src="images/project2.jpg" alt="Project 2" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Mobile App UI</h3>
+                        <p>A sleek and intuitive mobile app UI designed using Figma, focusing on user-friendly navigation, modern aesthetics, and seamless user experience. The project showcases my skills in layout, typography, and interaction design.</p>
+                        <a href="https://www.linkedin.com/posts/krishna-murthi-8547a5299_appdesign-figma-userexperience-activity-7214217024292442113-84IO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgytIABo_W1ET6X1VR2bAaGinQBjok2fR4" class="btn btn-outline">View Project</a>
+                    </div>
+                    <span class="portfolio-category">UI</span>
+                </div>
+                <div class="portfolio-item fade-in" data-delay="0.5s" data-category="graphic">
+                    <img src="images/project3.jpg" alt="Project 3" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Redesigned the D-Mart logo with a modern, clean, and retail-friendly look while retaining its brand essence. This conceptual revamp aims to enhance visual impact, memorability, and scalability across digital and print platforms.</p>
+                        <a href="https://www.linkedin.com/posts/krishna-murthi-8547a5299_dmart-logo-logoredesign-activity-7252258553590099968-BVCz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgytIABo_W1ET6X1VR2bAaGinQBjok2fR4" class="btn btn-outline">View Project</a>
+                    </div>
+                    <span class="portfolio-category">Graphic</span>
+                </div>
+                <div class="portfolio-item fade-in" data-delay="0.6s" data-category="web">
+                    <img src="images/project4.jpg" alt="Project 4" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Pill Reminder Web App</h3>
+                        <p>A Node.js-based web application that helps users schedule and track their medication timings efficiently. Includes user authentication and reminders to ensure timely pill intake, built with a focus on simplicity and usability.</p>
+                        <a href="https://github.com/krishnamurthi769/Pill-Reminder" class="btn btn-outline">View Project</a>
+                    </div>
+                    <span class="portfolio-category">Web</span>
+                </div>
+                <div class="portfolio-item fade-in" data-delay="0.7s" data-category="3D Blender">
+                    <img src="images/project5.jpg" alt="Project 5" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Modern Architecture 3D Render</h3>
+                        <p>A realistic 3D visualization of modern architecture created using Blender. This render showcases clean geometry, natural lighting, and detailed textures to bring the structure to life in a digital environment.</p>
+                        <a href="https://www.linkedin.com/posts/krishna-murthi-8547a5299_architecture-blender-3drendering-activity-7203385760975081472-NRpp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgytIABo_W1ET6X1VR2bAaGinQBjok2fR4" class="btn btn-outline">View Project</a>
+                    </div>
+                    <span class="portfolio-category">3D Blender</span>
+                </div>
+                <div class="portfolio-item fade-in" data-delay="0.8s" data-category="graphic">
+                    <img src="images/project6.jpg" alt="Project 6" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>AI-Powered Poster Design</h3>
+                        <p>An experimental AI-generated poster under the KM Edits series, combining creativity with artificial intelligence to explore unique visual aesthetics and design possibilities.</p>
+                        <a href="https://www.linkedin.com/posts/krishna-murthi-8547a5299_kmc-kmedits-ai-activity-7325377229029289984-MndD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEgytIABo_W1ET6X1VR2bAaGinQBjok2fR4" class="btn btn-outline">View Project</a>
+                    </div>
+                    <span class="portfolio-category">Graphic</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!--<section class="testimonials" id="testimonials">
+        <div class="container testimonials-container">
+            <h2 class="section-title fade-in">Certifications</h2>
+            <div class="testimonial-slider fade-in" data-delay="0.2s">
+                <div class="testimonial-slide active">
+                    <p class="testimonial-content">"Krishna delivered our project ahead of schedule and exceeded our expectations. His attention to detail and creative approach to problem-solving made all the difference in our website's success."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="author-img">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechSolutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-content">"Working with Krishna was a pleasure. He understood our vision immediately and translated it into a design that perfectly represents our brand. We've received countless compliments on our new website."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="author-img">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Marketing Director, Bloom Cosmetics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-content">"Krishna's technical skills are matched only by his professionalism. He was responsive, patient with our many requests, and delivered a product that has significantly improved our online presence."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Rodriguez" class="author-img">
+                        <div class="author-info">
+                            <h4>Emma Rodriguez</h4>
+                            <p>Founder, GreenLife Organics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav fade-in" data-delay="0.4s">
+                <div class="slider-dot active"></div>
+                <div class="slider-dot"></div>
+                <div class="slider-dot"></div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Certifications Section -->
+<section class="Certifications" id="certifications">
+    <h2>Certifications</h2>
+    <div class="certificates-container">
+      <div class="certificate">
+        <img src="images/certificate1.jpg" alt="Blender Certificate">
+        <p>Master the Blender – Udemy</p>
+      </div>
+      <div class="certificate">
+        <img src="images/certificate2.jpg" alt="UI/UX Design Certificate">
+        <p>UI/UX Design – Great Learning Academy</p>
+      </div>
+      <div class="certificate">
+        <img src="images/certificate3.jpg" alt="Google UX Certificate">
+        <p>Foundations of UX Design – Google</p>
+      </div>
+      <div class="certificate">
+        <img src="images/certificate4.jpg" alt="AWS Academy Certificate">
+        <p>AWS Cloud Architecting – AWS Academy</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Resume Download -->
+  <section id="resume">
+    <h2>Download Resume</h2>
+    <a href="assets/KRISHNA MURTHI RESUME.pdf" download class="btn">Download My Resume (PDF)</a>
+  </section>
+  
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 class="section-title fade-in">Get In Touch</h2>
+                <p class="fade-in" data-delay="0.2s">Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+                <div class="contact-item fade-in" data-delay="0.3s">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:krishna@example.com">krishnamurthikm07@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item fade-in" data-delay="0.4s">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <a href="tel:+1234567890">+91 8088500769</a>
+                    </div>
+                </div>
+                <div class="contact-item fade-in" data-delay="0.5s">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Bangalore, India</p>
+                    </div>
+                </div>
+                <div class="social-links fade-in" data-delay="0.6s">
+                    <a href="https://github.com/krishnamurthi769" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/krishna-murthi-8547a5299/" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/km_edits_official/profilecard/?igsh=dHl1anozbzR5b25t" class="social-link"><i class="fab fa-instagram"></i></a>
+
+                </div>
+            </div>
+            <div class="contact-form fade-in" data-delay="0.7s">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="map-container fade-in" data-delay="0.8s">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.6600708854!2d77.3507273577728!3d12.95451702039216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1686130917706!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="year"></span> Krishna Murthi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
